@@ -1,8 +1,8 @@
 # Lung-Nodule-Quantification
+Quantify lung nodules on all three axes by using 2D user-defined ROI on a single slice.
 
-Cancer is one of the leading causes of death around the world. Early detection is a crucial step to surviving. Commonly, radiologists detect nodules using MIPs of different thicknesses. Maximum Intensity Projections (MIP) help visualize lung features over multiple scans, hence giving a clearer picture of nodules and vessels, as nodules are isolated specs and vessels, like veins, are continuous. This is better demonstrated in the figure below:
-
-![output](https://github.com/amalmsaleem/Lung-Nodule-Segmentation/blob/main/Images/image1.png)
+## Dataset
+[LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)
 
 ## Preprocessing
 The preprocessing uses watershed algorithm to segment out the lungs, resizing and resampling of scans.
