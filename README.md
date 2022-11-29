@@ -8,7 +8,7 @@ Quantify lung nodules on all three axes by using 2D user-defined ROI on a single
 The preprocessing uses watershed algorithm to segment out the lungs, resizing and resampling of scans.
 
 ## Pipeline
-In this project, the user provides 2D ROI bounding box of the nodule on one slice. The nodule is then segmented out using the results of my project [here](https://github.com/amalmsaleem/Lung-Nodule-Segmentation). This is shown below:
+In this project, the user provides 2D ROI bounding box of the nodule on one slice. The nodule is then segmented out using 2D Resnet(https://github.com/amalmsaleem/Lung-Nodule-Segmentation). This is shown below:
 
 ![image](https://user-images.githubusercontent.com/99807582/199526013-ccc61fdf-6380-4e9f-b38f-c09a1fcb2bcc.png)
 
